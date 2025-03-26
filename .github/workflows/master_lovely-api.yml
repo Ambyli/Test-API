@@ -5,7 +5,7 @@
 name: Build and deploy Python project to Azure Function App - phase-api
 
 on:
-  pull_request:
+  push:
     branches:
       - master 
   workflow_dispatch:
