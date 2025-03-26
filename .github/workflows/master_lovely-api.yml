@@ -67,7 +67,7 @@ jobs:
           subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_7B0BC750E60F4889B1410EBC3D676DC1 }}
           
       - name: 'Deploy to Azure Functions'
-        uses: Azure/functions-action@v2
+        uses: Azure/functions-action@v1
         id: deploy-to-function
         with:
           app-name: 'Lovely-API'
