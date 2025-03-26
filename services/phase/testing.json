@@ -1,0 +1,75 @@
+{
+  "Bulletin": {
+    "Create": true,
+    "Update": true,
+    "View": true,
+    "Delete": true
+  },
+  "Overseer": {
+    "CaseView": {
+      "Search": true,
+      "Filter": true,
+      "Select": true,
+      "Errors": true,
+      "CaseDetails": {
+        "CreateModels&Aligners": true,
+        "CreateAligners": true,
+        "UploadModels": true,
+        "AddFlags": true,
+        "RemoveFlags": true,
+        "FlagHistory": true,
+        "GenerateFixit": true,
+        "AddAttachment": true,
+        "CaseTicket": true,
+        "Create": true,
+        "checkout": true,
+        "Remove": true,
+        "EditProductID": true,
+        "BulkFileLinks": true,
+        "UploadModel": true,
+        "FixitAligners": true,
+        "CancelledAligners": true,
+        "Fixits": true,
+        "AddAttachments": true
+      },
+      "FixitDashboards": {
+        "working": true
+      },
+      "FixitTracker": true,
+      "terminals": {
+        "Print-In": "Waiting for plate",
+        "Print-Out": {
+          "case": true,
+          "fixit": true
+        },
+        "Therm": {
+          "case": true,
+          "fixit": true
+        },
+        "Mill": {
+          "case": true,
+          "fixit": true
+        },
+        "Tumble": {
+          "case": true,
+          "fixit": true
+        },
+        "Inspect-In": {
+          "case": true,
+          "fixit": false
+        },
+        "Inspect-Out": {
+          "case": true,
+          "fixit": true
+        },
+        "FinalQC": {
+          "case": true,
+          "fixit": true
+        },
+        "Carbon": {
+          "case": idk,
+        }
+      }
+    }
+  }
+}

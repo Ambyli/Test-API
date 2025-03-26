@@ -1,0 +1,48 @@
+#source .venv/Scripts/activate
+echo "Activated environment"
+unset SQL_SERVER
+echo "Cleared SQL_SERVER"
+unset SQL_DATABASE
+echo "Cleared SQL_DATABASE"
+unset SQL_USERNAME
+echo "Cleared SQL_USERNAME"
+unset SQL_PASSWORD
+echo "Cleared SQL_PASSWORD"
+unset SQL_DRIVER
+echo "Cleared SQL_DRIVER"
+unset SQL_USERNAME_READONLY
+echo "Cleared SQL_USERNAME_READONLY"
+unset SQL_PASSWORD_READONLY
+echo "Cleared SQL_PASSWORD_READONLY"
+unset CARBON_CLIENT_ID
+echo "Cleared CARBON_CLIENT_ID"
+unset CARBON_CLIENT_SECRET
+echo "Cleared CARBON_CLIENT_SECRET"
+unset CARBON_APPLICATION_UUID
+echo "Cleared CARBON_APPLICATION_UUID"
+unset CARBON_PART_ORDER_NUMBER
+echo "Cleared CARBON_PART_ORDER_NUMBER"
+unset CARBON_BUILD_SOP_UUID
+echo "Cleared CARBON_BUILD_SOP_UUID"
+unset PHASE_STORAGE_NAME_1
+echo "Cleared PHASE_STORAGE_NAME_1"
+unset PHASE_STORAGE_KEY_1
+echo "Cleared PHASE_STORAGE_KEY_1"
+unset PHASE_STORAGE_NAME_2
+echo "Cleared PHASE_STORAGE_NAME_2"
+unset PHASE_STORAGE_KEY_2
+echo "Cleared PHASE_STORAGE_KEY_2"
+unset MAGIC_TOUCH_URL
+echo "Cleared MAGIC_TOUCH_URL"
+unset MAGIC_TOUCH_TOKEN
+echo "Cleared MAGIC_TOUCH_TOKEN"
+unset OWNER_DEFAULT_TOKEN
+echo "Cleared OWNER_DEFAULT_TOKEN"
+unset CRYPTO_KEY
+echo "Cleared CRYPTO_KEY"
+unset INJECTION_PATTERN
+echo "Cleared INJECTION_PATTERN"
+unset AMPOS_API_URL
+echo "Cleared AMPOS_API_URL"
+unset AMPOS_API_TOKEN
+echo "Cleared AMPOS_API_TOKEN"

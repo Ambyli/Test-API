@@ -1,0 +1,18 @@
+# DO NOT include azure-functions-worker in this file
+# The Python Worker is managed by Azure Functions platform
+# Manually managing azure-functions-worker may cause unexpected issues
+
+azure-functions
+pytest
+PyJWT
+cryptography==43.0.3
+pyodbc
+carbon3d-client
+./services
+requests
+bcrypt
+azure-storage-file-share
+azure-storage-blob
+python-dateutil
+pytz
+python-dotenv
